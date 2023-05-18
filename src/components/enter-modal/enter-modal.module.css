@@ -13,7 +13,7 @@
 }
 
 .title {
-  margin: 31px auto;
+  margin: 30px auto;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -37,7 +37,7 @@
   background: #347f69;
   border: 0;
   border-radius: 25px;
-  margin: 15px auto;
+  margin: 15px auto 30px;
 
   font-weight: 600;
   font-size: 16px;
@@ -49,11 +49,14 @@
   cursor: pointer;
 }
 
+.error {
+  color: red;
+}
+
 /* 768px */
 @media screen and (min-width: 768px) {
   .form {
     width: 409px;
-    height: 382px;
   }
 
   .input {
